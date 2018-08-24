@@ -47,6 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		658530AB20F94B3300253316 /* LastScenario.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LastScenario.txt; path = ../config/LastScenario.txt; sourceTree = "<group>"; };
 		DB076C8A202A34C500386052 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		DB31989E20334078008ACD56 /* Simulation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Simulation.txt; path = ../config/Simulation.txt; sourceTree = "<group>"; };
 		DB3198A320334078008ACD56 /* QuadPhysicalParams.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuadPhysicalParams.txt; path = ../config/QuadPhysicalParams.txt; sourceTree = "<group>"; };
@@ -116,7 +117,7 @@
 		DB49FB70202A0CC600DED4E6 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
 		DB49FB71202A0CC600DED4E6 /* VehicleDatatypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleDatatypes.h; sourceTree = "<group>"; };
 		DBD204F12036369000E0F55A /* QuadControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadControl.h; sourceTree = "<group>"; };
-		DBD204F22036369000E0F55A /* QuadControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadControl.cpp; sourceTree = "<group>"; };
+		DBD204F22036369000E0F55A /* QuadControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadControl.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		DBD204F4203636AA00E0F55A /* 2_AttitudeControl.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 2_AttitudeControl.txt; path = ../config/2_AttitudeControl.txt; sourceTree = "<group>"; };
 		DBD204F5203636AA00E0F55A /* Scenarios.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Scenarios.txt; path = ../config/Scenarios.txt; sourceTree = "<group>"; };
 		DBD204F6203636AA00E0F55A /* 3_PositionControl.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 3_PositionControl.txt; path = ../config/3_PositionControl.txt; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		DB31989C2033405F008ACD56 /* config */ = {
 			isa = PBXGroup;
 			children = (
+				658530AB20F94B3300253316 /* LastScenario.txt */,
 				DBD204FA203636AA00E0F55A /* 1_Intro.txt */,
 				DBD204F4203636AA00E0F55A /* 2_AttitudeControl.txt */,
 				DBD204F6203636AA00E0F55A /* 3_PositionControl.txt */,
